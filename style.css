@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Roboto&display=swap');
+
+/* header */
+header section {
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    padding: 10px;
+    font-family:'Roboto', sans-serif;
+}
+
+.menu-superior ul {
+    display: flex;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu-superior a {
+    margin: 10px;
+    color: #F3F3F3;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.pizza-logo {
+    display: flex;
+    padding: 20px;
+}
+
+.logo-completo {
+    margin-left: 20px;
+    position: relative;
+    top: 30px;
+} 
+
+.logo-superior1 {
+    color: #39B24A;
+}
+.logo-superior2 {
+    color: #ffffff;
+}
+.logo-superior3 {
+    color: #FC200C;
+}
+
+
+/* main */
+main {
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+}
+
+.imagen-contenedor span {
+    color:#ffffff;
+}
+
+.imagen-contenedor h2 {
+    color: #FC200C;
+    text-align: justify;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+.menu-contenedor img {
+    position: relative;
+    left: 320px;
+    bottom: 100px;
+}
+
+.menu-contenedor h2 {
+    color: #FC200C;
+    text-align: center;
+}
+
+.menu-contenedor ol{
+    padding-left: 50px;
+    margin-top: 80px;
+    font-family:'Roboto', sans-serif;
+}
+
+.menu-contenedor h3 {
+    font-size: 20px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    font-family:'Roboto', sans-serif;
+}
+
+.menu-contenedor h2 {
+    font-size: 20px;
+    position: relative;
+    top: 30px;
+}
+
+.contenedor .imagen-contenedor  {
+    background-image: url(img/delivery.jpg);
+    background-repeat: no-repeat;
+    margin: 50px;
+    width: 490px;
+    height: 350px;
+    margin-right: 0px;
+}
+
+.menu-contenedor {
+    background-color: #FFFFFF;
+    width: 490px;
+    margin: 50px;
+    margin-left: 0px;
+    border-radius: 5px;
+}
+
+/* footer */
+footer section{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    width: 100%;
+    padding: 10px;
+    font-family:'Roboto', sans-serif;
+}
+
+.menu-inferior ul {
+    margin: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-inferior a {
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 20px;
+}
+
+.pizza-logo2 {
+    display: flex;
+    padding: 20px;
+}
+
+
